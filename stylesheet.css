@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(104, 187, 285);
+    /* Note : 285 ??? */
+}
+div#header {
+    width: 90%;
+    margin: 5%;
+    min-height: 100px;
+    text-align: center;
+}
+div#container {
+    width: 90%;
+    margin: 5%;
+    min-height: 350px;
+}
+div#container div {
+    padding: 1%;
+}
+div#left-box {
+    float: left;
+    width: 30%;
+    margin: 0.5%;
+    background-color: rgb(9, 30, 45);
+    color: #ffffff;
+    min-height: 200px;
+}
+div#left-box a {
+    color: #ffffff;
+}
+div#left-box img {
+    max-width: 100%;
+}
+div#left-box ul {
+    list-style-type: none;
+}
+div#right-box {
+    float: right;
+    width: 60%;
+    margin: 2%;
+    margin-top: -3.5%;
+    min-height: 250px;
+}
+div#experiences-box, div#studies-box {
+    background-color: #ffffff;
+    width: 90%;
+    margin: 5%;
+    min-height: 50px;
+}
+div.clearfix {
+    clear: both;
+}
+div#footer {
+    width: 90%;
+    margin: 1%;
+    text-align: center;
+    min-height: 100px;
+}
